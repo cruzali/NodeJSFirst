@@ -1,0 +1,29 @@
+{
+  "name": "NodeJSFirst",
+  "version": "1.0.0",
+  "description": "Primeros contactos con Node JS",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cruzali/NodeJSFirst.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cruzali/NodeJSFirst/issues"
+  },
+  "homepage": "https://github.com/cruzali/NodeJSFirst#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.2.5",
+    "underscore": "^1.13.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
